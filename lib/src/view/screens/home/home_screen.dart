@@ -21,16 +21,15 @@ class HomeScreen extends StatelessWidget {
           children: [
             SpacingStack.xl,
             HeadingSmall(
-              text: "Sample",
+              text: TextConstants.title,
             ),
             SpacingStack.xxxs,
             SubtitleSmall(
-              text: "Subtitle SM",
+              text: TextConstants.subtitle,
             ),
             SpacingStack.xxs,
             Paragraph(
-              text:
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+              text: TextConstants.paragraph,
             ),
             SpacingStack.xxl,
             MeiucaCard(
